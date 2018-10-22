@@ -49,7 +49,6 @@ OPCIONES_CARRERA = (
 # Create your models here.
 class Materia(models.Model):
     nombre= models.CharField(max_length=10, default='')
-    carrera= models.ForeignKey('Carrera')
 
 class Carrera(models.Model):
     nombre = models.CharField(max_length=10, choices=OPCIONES_CARRERA, default='')
