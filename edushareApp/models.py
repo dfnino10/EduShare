@@ -55,7 +55,7 @@ class Carrera(models.Model):
     materias = models.ManyToManyField(Materia)
 
 class Estudiante(models.Model):
-    user = models.OneToOneField(User)
+    user = models.OneToOneField(User, on_delete=models.CASCADE())
     nombre = models.CharField(max_length=200, default ='')
     carrera = models.ForeignKey(Carrera)
     email = models.EmailField(max_length=200)
@@ -68,7 +68,7 @@ class Horario(models.Model):
     hora_inicio = models.TimeField()
 
 class Monitor(models.Model):
-    user = models.OneToOneField(User)
+    user = models.OneToOneField(User, on_delete=models.CASCADE())
     nombre = models.CharField(max_length=200, default='')
     carrera = models.CharField(max_length=10, choices=OPCIONES_CARRERA, default='')
     email = models.EmailField(max_length=200)
