@@ -1,0 +1,76 @@
+@charset "ISO-8859-1";
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #0455d8; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #000080;
+}
+
+.navbar{
+	background-color: #0455d8;
+}
+
+.navbar a{
+	font-size: 25px;
+	color:#ffffff;
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/*imgen de fondo para materia*/
+.container{
+	
+	position: 1500px;
+	background-image: url("https://as1.ftcdn.net/jpg/00/25/01/26/500_F_25012695_QTQhfTxu9kfDBzhHBUeyT1qoM0MucNvs.jpg");
+	background-repeat: no-repeat;
+
+	background-position: center;
+	background-size: 100% 50%;
+	background-position: center top;
+	position: 0px 1500px
+}
+/*title*/
+.tit1{
+	text-align: center;
+	text-decoration: overline;
+	position: 50% 50%
+}
+
+/*la parte de arriba*/
+.tit{
+	color:#0455d8;
+	text-decoration: underline;	
+}
+.rounded{
+	size: 500px;
+}
