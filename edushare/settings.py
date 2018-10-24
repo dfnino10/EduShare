@@ -25,7 +25,7 @@ SECRET_KEY = 'j80i%svpm3o=y%4xkk5-&&mycxc&g!t(mhj8q9+h@!m-i6hp84'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '. edushare.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'edushare.pythonanywhere.com']
 
 
 # Application definition
