@@ -7,14 +7,6 @@
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<!-- Side navigation -->
@@ -52,10 +44,10 @@
 							src="https://as1.ftcdn.net/jpg/00/25/01/26/500_F_25012695_QTQhfTxu9kfDBzhHBUeyT1qoM0MucNvs.jpg"
 							alt="...">
 						<div class="caption">
-							<h3>Cálculo 2 (Integral)</h3>
+							<h3 class="title">Cálculo 2 (Integral)</h3>
 							<p>
-								<a href="#" class="btn btn-primary" role="button">Horarios</a> <a
-									href="Materia.html" class="btn btn-default" role="button">Ver Materia</a>
+								<a href="#" class="btn btn-primary" role="button">Horarios</a> 
+								<a class="btn btn-default" role="button">Ver Materia</a>
 							</p>
 						</div>
 					</div>
@@ -67,10 +59,10 @@
 							src="https://images.pexels.com/photos/714699/pexels-photo-714699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 							alt="...">
 						<div class="caption">
-							<h3>Física 1</h3>
+							<h3 class="title">Física 1</h3>
 							<p>
-								<a href="#" class="btn btn-primary" role="button">Horarios</a> <a
-									href="#" class="btn btn-default" role="button">Ver Materia</a>
+								<a href="#" class="btn btn-primary" role="button">Horarios</a> 
+								<a class="btn btn-default" role="button">Ver Materia</a>
 							</p>
 						</div>
 					</div>
@@ -82,10 +74,10 @@
 							src="https://images.pexels.com/photos/60022/microscope-slide-research-close-up-60022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 							alt="...">
 						<div class="caption">
-							<h3>Biología</h3>
+							<h3 class="title">Biología</h3>
 							<p>
-								<a href="#" class="btn btn-primary" role="button">Horarios</a> <a
-									href="#" class="btn btn-default" role="button">Ver Materia</a>
+								<a href="#" class="btn btn-primary" role="button">Horarios</a> 
+								<a class="btn btn-default" role="button">Ver Materia</a>
 							</p>
 						</div>
 					</div>
@@ -109,7 +101,7 @@
 							<p>Cálculo 1,2 y 3</p>
 							<p>
 								<a href="#" class="btn btn-primary" role="button">Horarios</a> <a
-									href="#" class="btn btn-default" role="button">Perfil</a>
+									href="#" class="btn btn-info" role="button">Perfil</a>
 							</p>
 						</div>
 					</div>
@@ -125,7 +117,7 @@
 							<p>Física 1</p>
 							<p>
 								<a href="#" class="btn btn-primary" role="button">Horarios</a> <a
-									href="#" class="btn btn-default" role="button">Perfil</a>
+									href="#" class="btn btn-info" role="button">Perfil</a>
 							</p>
 						</div>
 					</div>
@@ -141,7 +133,7 @@
 							<p>Probabilidad y Estadística 1 y 2</p>
 							<p>
 								<a href="#" class="btn btn-primary" role="button">Horarios</a> <a
-									href="#" class="btn btn-default" role="button">Perfil</a>
+									href="#" class="btn btn-info" role="button">Perfil</a>
 							</p>
 						</div>
 					</div>
@@ -152,4 +144,35 @@
 	</div>
 
 </body>
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript">
+	$(document).ready( function() {
+		var titles = [];
+		$('.title').each(function(i, title) {
+		    var titleText = title.innerHTML;
+		    titles.push(titleText)
+		});
+		
+		$('.btn.btn-default').each(function(i, button) {
+			console.log("Antes: " + $(button).attr('id'));
+		    $(button).attr('id', "materia-" + titles[i]);
+		});
+		
+		$("[id^='materia-']").each(function(i, button){
+			console.log(button)
+			$(button).on("click", function(){
+				var materia = $(this).attr("id").split("-")[1];
+				location.href = "Materia.html" + '#' + encodeURI(materia);
+			})
+		});
+	});
+	
+	</script>
 </html>

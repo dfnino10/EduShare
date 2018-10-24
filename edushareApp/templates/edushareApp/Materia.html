@@ -8,13 +8,7 @@
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<!-- Side navigation -->
@@ -65,8 +59,8 @@
 							<h3>Juan Pablo Ramirez</h3>
 							<p>Calculo 2</p>
 							<p>
-								<a href="#" class="btn btn-primary" role="button">Horarios</a> <a
-									href="#" class="btn btn-default" role="button">Perfil</a>
+								<a href="" class="btn btn-primary" role="button">Horarios</a> <a
+									href="Monitor.html" class="btn btn-default" role="button">Perfil</a>
 							</p>
 						</div>
 					</div>
@@ -111,4 +105,23 @@
 	</div>
 
 </body>
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready( function(){
+			var materia = decodeURI(location.href.split("#")[1].replace("%20", " "))
+			$(".tit1").html(materia)
+		})
+	</script>
+	
+	
+	
+	
+	
 </html>
