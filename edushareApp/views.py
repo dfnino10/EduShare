@@ -3,7 +3,7 @@ from .models import Estudiante, Materia, Carrera, Monitor, Horario
 
 # Create your views here.
 def home(request):
-   return render(request, 'index.html', {})
+   return render(request, 'Index.html', {})
 
 def login(request):
     return render(request, 'LogIn.html', {})
