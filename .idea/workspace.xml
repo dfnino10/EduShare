@@ -3,11 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="3693b040-e1f2-4397-9539-7188b3384d54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/edushareApp/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/edushareApp/templates/Index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edushareApp/templates/LogIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/edushareApp/templates/LogIn.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edushareApp/templates/Materia.html" beforeDir="false" afterPath="$PROJECT_DIR$/edushareApp/templates/Materia.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edushareApp/templates/ReservarHorario.html" beforeDir="false" afterPath="$PROJECT_DIR$/edushareApp/templates/ReservarHorario.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edushareApp/templates/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/edushareApp/templates/styles.css" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/edushareApp/templates/WebContent/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/edushareApp/templates/edushareApp/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edushareApp/templates/WebContent/LogIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/edushareApp/templates/edushareApp/LogIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edushareApp/templates/WebContent/LoginStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/edushareApp/templates/edushareApp/LoginStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edushareApp/templates/WebContent/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/edushareApp/templates/edushareApp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edushareApp/templates/WebContent/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/edushareApp/templates/edushareApp/styles.css" afterDir="false" />
+>>>>>>> parent of e4a30c7... models revisados
       <change beforePath="$PROJECT_DIR$/edushareApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/edushareApp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edushareApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/edushareApp/views.py" afterDir="false" />
     </list>
@@ -50,35 +58,56 @@
     <session id="2099127630">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.9" value="2" />
           <entry key="project.opened" value="7" />
+=======
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="3" />
+>>>>>>> parent of e4a30c7... models revisados
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="css" value="4" />
           <entry key="html" value="9" />
           <entry key="js" value="1" />
           <entry key="py" value="11" />
+=======
+          <entry key="html" value="1" />
+          <entry key="py" value="8" />
+>>>>>>> parent of e4a30c7... models revisados
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="CSS" value="4" />
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="1" />
           <entry key="Python" value="11" />
+=======
+          <entry key="HTML" value="1" />
+          <entry key="Python" value="8" />
+>>>>>>> parent of e4a30c7... models revisados
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="css" value="5" />
           <entry key="html" value="564" />
           <entry key="py" value="2139" />
+=======
+          <entry key="py" value="1928" />
+>>>>>>> parent of e4a30c7... models revisados
           <entry key="txt" value="168" />
         </counts>
       </usages-collector>
@@ -87,7 +116,11 @@
           <entry key="CSS" value="5" />
           <entry key="HTML" value="564" />
           <entry key="PLAIN_TEXT" value="168" />
+<<<<<<< HEAD
           <entry key="Python" value="2139" />
+=======
+          <entry key="Python" value="1928" />
+>>>>>>> parent of e4a30c7... models revisados
         </counts>
       </usages-collector>
     </session>
@@ -97,8 +130,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edushareApp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="168">
               <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+=======
+            <state relative-caret-position="310">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+>>>>>>> parent of e4a30c7... models revisados
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -116,12 +154,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/edushareApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/edushareApp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <marker date="1540240801671" expanded="true" signature="1652:1653" ph="..." />
+>>>>>>> parent of e4a30c7... models revisados
               </folding>
             </state>
           </provider>
@@ -130,17 +178,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edushareApp/templates/ReservarHorario.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="160">
               <caret line="62" column="124" selection-start-line="62" selection-start-column="124" selection-end-line="62" selection-end-column="124" />
+=======
+            <state relative-caret-position="195">
+              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+>>>>>>> parent of e4a30c7... models revisados
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edushareApp/templates/LogIn.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
               <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/edushareApp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+>>>>>>> parent of e4a30c7... models revisados
             </state>
           </provider>
         </entry>
@@ -157,8 +221,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edushareApp/templates/edushareApp/Materia.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1134">
               <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+=======
+            <state relative-caret-position="189">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+>>>>>>> parent of e4a30c7... models revisados
             </state>
           </provider>
         </entry>
@@ -209,6 +281,7 @@
       <list>
         <option value="$PROJECT_DIR$/edushareApp/admin.py" />
         <option value="$PROJECT_DIR$/edushare/urls.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/edushare/settings.py" />
         <option value="$PROJECT_DIR$/edushareApp/models.py" />
         <option value="$PROJECT_DIR$/edushareApp/templates/styles.css" />
@@ -220,6 +293,12 @@
         <option value="$PROJECT_DIR$/edushareApp/views.py" />
         <option value="$PROJECT_DIR$/edushareApp/templates/Index.html" />
         <option value="$PROJECT_DIR$/edushareApp/templates/Monitor.html" />
+=======
+        <option value="$PROJECT_DIR$/edushareApp/models.py" />
+        <option value="$PROJECT_DIR$/edushareApp/urls.py" />
+        <option value="$PROJECT_DIR$/edushare/settings.py" />
+        <option value="$PROJECT_DIR$/edushareApp/views.py" />
+>>>>>>> parent of e4a30c7... models revisados
       </list>
     </option>
   </component>
@@ -230,8 +309,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="266" />
     <option name="y" value="28" />
+=======
+    <option name="x" value="103" />
+    <option name="y" value="-9" />
+>>>>>>> parent of e4a30c7... models revisados
     <option name="width" value="1107" />
     <option name="height" value="536" />
   </component>
@@ -241,12 +325,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="prototipoPMC" type="b2602c69:ProjectViewProjectNode" />
               <item name="prototipoPMC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prototipoPMC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prototipoPMC" type="462c0819:PsiDirectoryNode" />
+              <item name="edushare" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="prototipoPMC" type="b2602c69:ProjectViewProjectNode" />
@@ -263,7 +353,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,7 +449,11 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+>>>>>>> parent of e4a30c7... models revisados
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -407,13 +500,14 @@
     <entry file="file://$PROJECT_DIR$/edushareApp/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/edushareApp/migrations/0001_initial.py">
+    <entry file="file://$PROJECT_DIR$/edushareApp/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/myvenv/Lib/site-packages/django/db/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1160" />
@@ -432,6 +526,11 @@
     <entry file="file://$PROJECT_DIR$/edushareApp/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
+=======
+    <entry file="file://$PROJECT_DIR$/edushareApp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+>>>>>>> parent of e4a30c7... models revisados
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -439,6 +538,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/edushareApp/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -473,6 +573,22 @@
           <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
           <folding>
             <element signature="e#632#664#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/edushareApp/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edushareApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1540240801671" expanded="true" signature="1652:1653" ph="..." />
+>>>>>>> parent of e4a30c7... models revisados
           </folding>
         </state>
       </provider>
@@ -501,6 +617,7 @@
     <entry file="file://$PROJECT_DIR$/edushareApp/templates/edushareApp/Monitor.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/edushareApp/static/stylesMateria.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -521,10 +638,26 @@
           <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/edushare/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edushare/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+>>>>>>> parent of e4a30c7... models revisados
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/edushareApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -556,6 +689,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+=======
+    <entry file="file://$PROJECT_DIR$/edushareApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edushareApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+>>>>>>> parent of e4a30c7... models revisados
         </state>
       </provider>
     </entry>
