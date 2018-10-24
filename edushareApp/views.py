@@ -1,9 +1,9 @@
 from django.shortcuts import render
-from .models import  Estudiante
+from .models import Estudiante, Materia, Carrera, Monitor, Horario
 
 # Create your views here.
 def home(request):
-    return render(request, 'index.html', {})
+   return render(request, 'index.html', {})
 
 def login(request):
     return render(request, 'LogIn.html', {})
@@ -16,3 +16,4 @@ def materia(request):
 
 def monitor(request):
     return render(request, 'Monitor.html', {})
+
