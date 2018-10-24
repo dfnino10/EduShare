@@ -1,11 +1,9 @@
-{% load static %}
 <!DOCTYPE html>
 <html ng-app="main">
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-<link rel="stylesheet" href="styles.css">
-<!-- Latest compiled and minified CSS -->
+<meta charset="UTF-8">
+<title>EduShare</title>
+<!-- Latest compiled and minified CSS-->
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -17,25 +15,28 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
 <body>
+ {% load static %}
+<link rel="stylesheet" type="text/css" href="{% static '/styles.css' %}">
+
 	<!-- Side navigation -->
 	<div class="sidenav">
-		<a href="#">Página Principal</a> <a href="#">Mi Perfil</a> <a href="#">Mis
+		<a href="#">PÃ¡gina Principal</a> <a href="/monitor">Mi Perfil</a> <a href="/reserva">Mis
 			Citas</a>
 	</div>
 
 	<!-- Page content -->
 
-	<!-- Barra de navegación superior -->
+	<!-- Barra de navegaciÃ³n superior -->
 	<div class="main">
 		<nav class="navbar">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="LogIn.html">EduShare</a>
+					<a class="navbar-brand" href="/login">EduShare</a>
 				</div>
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Página Principal</a></li>
+					<li class="active"><a href="#">PÃ¡gina Principal</a></li>
 					<li><a href="#">Materias</a></li>
 				</ul>
 			</div>
@@ -54,10 +55,10 @@
 							src="https://as1.ftcdn.net/jpg/00/25/01/26/500_F_25012695_QTQhfTxu9kfDBzhHBUeyT1qoM0MucNvs.jpg"
 							alt="...">
 						<div class="caption">
-							<h3>Cálculo 2 (Integral)</h3>
+							<h3>CÃ¡lculo 2 (Integral)</h3>
 							<p>
-								<a href="#" class="btn btn-primary" role="button">Horarios</a> <a
-									href="Materia.html" class="btn btn-default" role="button">Ver Materia</a>
+								<a href="/reserva" class="btn btn-primary" role="button">Horarios</a> <a
+									href="/materia" class="btn btn-default" role="button">Ver Materia</a>
 							</p>
 						</div>
 					</div>
@@ -69,10 +70,10 @@
 							src="https://images.pexels.com/photos/714699/pexels-photo-714699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 							alt="...">
 						<div class="caption">
-							<h3>Física 1</h3>
+							<h3>FÃ­sica 1</h3>
 							<p>
-								<a href="#" class="btn btn-primary" role="button">Horarios</a> <a
-									href="#" class="btn btn-default" role="button" >Ver Materia</a>
+								<a href="/reserva" class="btn btn-primary" role="button">Horarios</a> <a
+									href="/materia" class="btn btn-default" role="button" >Ver Materia</a>
 							</p>
 						</div>
 					</div>
@@ -84,10 +85,10 @@
 							src="https://images.pexels.com/photos/60022/microscope-slide-research-close-up-60022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 							alt="...">
 						<div class="caption">
-							<h3>Biología</h3>
+							<h3>BiologÃ­a</h3>
 							<p>
-								<a href="#" class="btn btn-primary" role="button">Horarios</a> <a
-									href="#" class="btn btn-default" role="button">Ver Materia</a>
+								<a href="/materia" class="btn btn-primary" role="button">Horarios</a> <a
+									href="/materia" class="btn btn-default" role="button">Ver Materia</a>
 							</p>
 						</div>
 					</div>
@@ -107,11 +108,11 @@
 							src="https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 							alt="...">
 						<div class="caption">
-							<h3>Juan Andrés</h3>
-							<p>Cálculo 1,2 y 3</p>
+							<h3>Juan AndrÃ©s</h3>
+							<p>CÃ¡lculo 1,2 y 3</p>
 							<p>
-								<a href="#" class="btn btn-primary" role="button">Horarios</a> <a
-									href="#" state="perfil" class="btn btn-default" role="button">Perfil</a>
+								<a href="/reserva" class="btn btn-primary" role="button">Horarios</a> <a
+									href="/monitor" class="btn btn-default" role="button">Perfil</a>
 							</p>
 						</div>
 					</div>
@@ -123,11 +124,11 @@
 							src="https://images.pexels.com/photos/1251861/pexels-photo-1251861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 							alt="...">
 						<div class="caption">
-							<h3>Andrés Mena</h3>
-							<p>Física 1</p>
+							<h3>AndrÃ©s Mena</h3>
+							<p>FÃ­sica 1</p>
 							<p>
-								<a href="#" class="btn btn-primary" role="button">Horarios</a> <a
-									href="#" class="btn btn-default" role="button">Perfil</a>
+								<a href="/reserva" class="btn btn-primary" role="button">Horarios</a> <a
+									href="/monitor" class="btn btn-default" role="button">Perfil</a>
 							</p>
 						</div>
 					</div>
@@ -140,10 +141,10 @@
 							alt="...">
 						<div class="caption">
 							<h3>Nicolle Espitia</h3>
-							<p>Probabilidad y Estadística 1 y 2</p>
+							<p>Probabilidad y EstadÃ­stica 1 y 2</p>
 							<p>
-								<a href="#" class="btn btn-primary" role="button">Horarios</a> <a
-									href="#" class="btn btn-default" role="button">Perfil</a>
+								<a href="/reserva" class="btn btn-primary" role="button">Horarios</a> <a
+									href="/monitor" class="btn btn-default" role="button">Perfil</a>
 							</p>
 						</div>
 					</div>
@@ -152,6 +153,5 @@
 
 		</div>
 	</div>
-
 </body>
 </html>

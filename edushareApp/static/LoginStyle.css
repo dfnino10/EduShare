@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+body{
+	background: url("https://images.pexels.com/photos/1205651/pexels-photo-1205651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+}
+
+#contenedorFormulario{
+	
+	background-color: rgba(73,64,64,0.40);
+	width: 50%;
+	height: 50%;
+
+}
+
+label{
+	color:white;
+}

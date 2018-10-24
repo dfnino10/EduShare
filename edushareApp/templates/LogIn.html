@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="LoginStyle.css">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -16,9 +15,11 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+{% load static %}
+<link rel="stylesheet" href={% static 'LoginStyle.css' %}>
 <body>
 	<div class="container" id="contenedorFormulario">
-		<form class="form-inline" action="/action_page.php">
+		<form class="form-inline" action="/">
 			<label for="email">Email address:</label> <input type="email"
 				class="form-control" id="email"> <label for="pwd">Password:</label>
 			<input type="password" class="form-control" id="pwd">

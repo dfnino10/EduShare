@@ -47,16 +47,30 @@
     .sidenav a {font-size: 18px;}
 }
 
-.row-striped:nth-of-type(odd){
-  background-color: #efefef;
-  border-left: 4px #000000 solid;
+/*imgen de fondo para materia*/
+.container{
+	
+	position: 1500px;
+	background-image: url("https://as1.ftcdn.net/jpg/00/25/01/26/500_F_25012695_QTQhfTxu9kfDBzhHBUeyT1qoM0MucNvs.jpg");
+	background-repeat: no-repeat;
+
+	background-position: center;
+	background-size: 100% 50%;
+	background-position: center top;
+	position: 0px 1500px
+}
+/*title*/
+.tit1{
+	text-align: center;
+	text-decoration: overline;
+	position: 50% 50%
 }
 
-.row-striped:nth-of-type(even){
-  background-color: #ffffff;
-  border-left: 4px #efefef solid;
+/*la parte de arriba*/
+.tit{
+	color:#0455d8;
+	text-decoration: underline;	
 }
-
-.row-striped {
-    padding: 15px 0;
+.rounded{
+	size: 500px;
 }
