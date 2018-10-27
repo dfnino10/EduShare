@@ -3,17 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" href="styles.css">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
 {% load static %}
@@ -87,4 +80,26 @@
 	</div>
 
 </body>
+
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready( function(){
+			$.ajax({
+				url: "https://cors-anywhere.herokuapp.com/https://edushare.pythonanywhere.com/admin/edushareApp/horar/",
+				type: 'GET',
+				success: function(data){
+					console.log(data);
+				},
+				failure: function(error){
+					console.log("Error: " + error)
+				}
+			})
+		});
+		</script>
 </html>
